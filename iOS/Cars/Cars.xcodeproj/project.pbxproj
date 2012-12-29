@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3076B6F1679D073002EF5E1 /* AddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3076B6E1679D073002EF5E1 /* AddCarViewController.m */; };
+		B357FCB716709A0600B485AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357FCB616709A0500B485AB /* UIKit.framework */; };
+		B357FCB916709A0600B485AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357FCB816709A0600B485AB /* Foundation.framework */; };
+		B357FCBB16709A0600B485AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357FCBA16709A0600B485AB /* CoreGraphics.framework */; };
+		B357FCC116709A0600B485AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B357FCBF16709A0600B485AB /* InfoPlist.strings */; };
+		B357FCC316709A0600B485AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B357FCC216709A0600B485AB /* main.m */; };
+		B357FCC716709A0600B485AB /* CarsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B357FCC616709A0600B485AB /* CarsAppDelegate.m */; };
+		B357FCC916709A0600B485AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B357FCC816709A0600B485AB /* Default.png */; };
+		B357FCCB16709A0600B485AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B357FCCA16709A0600B485AB /* Default@2x.png */; };
+		B357FCCD16709A0600B485AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B357FCCC16709A0600B485AB /* Default-568h@2x.png */; };
+		B357FCD016709A0600B485AB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B357FCCE16709A0600B485AB /* MainStoryboard.storyboard */; };
+		B357FCDB16709A4F00B485AB /* CarsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B357FCDA16709A4F00B485AB /* CarsTableViewController.m */; };
+		B357FCDE16709B9A00B485AB /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B357FCDD16709B9A00B485AB /* Car.m */; };
+		B357FCE11670A12500B485AB /* CarsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B357FCE01670A12500B485AB /* CarsTableViewCell.m */; };
+		B357FCEF1670AB2D00B485AB /* CarsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B357FCEE1670AB2D00B485AB /* CarsDetailViewController.m */; };
+		B3B116731679E2A900B94686 /* ImagesUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B116721679E2A900B94686 /* ImagesUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3076B6D1679D073002EF5E1 /* AddCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCarViewController.h; sourceTree = "<group>"; };
+		B3076B6E1679D073002EF5E1 /* AddCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCarViewController.m; sourceTree = "<group>"; };
+		B357FCB216709A0500B485AB /* Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B357FCB616709A0500B485AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B357FCB816709A0600B485AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B357FCBA16709A0600B485AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B357FCBE16709A0600B485AB /* Cars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cars-Info.plist"; sourceTree = "<group>"; };
+		B357FCC016709A0600B485AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B357FCC216709A0600B485AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B357FCC416709A0600B485AB /* Cars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cars-Prefix.pch"; sourceTree = "<group>"; };
+		B357FCC516709A0600B485AB /* CarsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarsAppDelegate.h; sourceTree = "<group>"; };
+		B357FCC616709A0600B485AB /* CarsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarsAppDelegate.m; sourceTree = "<group>"; };
+		B357FCC816709A0600B485AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B357FCCA16709A0600B485AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B357FCCC16709A0600B485AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B357FCCF16709A0600B485AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B357FCD916709A4F00B485AB /* CarsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarsTableViewController.h; sourceTree = "<group>"; };
+		B357FCDA16709A4F00B485AB /* CarsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarsTableViewController.m; sourceTree = "<group>"; };
+		B357FCDC16709B9A00B485AB /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		B357FCDD16709B9A00B485AB /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		B357FCDF1670A12500B485AB /* CarsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarsTableViewCell.h; sourceTree = "<group>"; };
+		B357FCE01670A12500B485AB /* CarsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarsTableViewCell.m; sourceTree = "<group>"; };
+		B357FCED1670AB2D00B485AB /* CarsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarsDetailViewController.h; sourceTree = "<group>"; };
+		B357FCEE1670AB2D00B485AB /* CarsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarsDetailViewController.m; sourceTree = "<group>"; };
+		B3B116711679E2A900B94686 /* ImagesUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesUtilities.h; sourceTree = "<group>"; };
+		B3B116721679E2A900B94686 /* ImagesUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B357FCAF16709A0500B485AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357FCB716709A0600B485AB /* UIKit.framework in Frameworks */,
+				B357FCB916709A0600B485AB /* Foundation.framework in Frameworks */,
+				B357FCBB16709A0600B485AB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B357FCA716709A0500B485AB = {
+			isa = PBXGroup;
+			children = (
+				B357FCBC16709A0600B485AB /* Cars */,
+				B357FCB516709A0500B485AB /* Frameworks */,
+				B357FCB316709A0500B485AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B357FCB316709A0500B485AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B357FCB216709A0500B485AB /* Cars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B357FCB516709A0500B485AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B357FCB616709A0500B485AB /* UIKit.framework */,
+				B357FCB816709A0600B485AB /* Foundation.framework */,
+				B357FCBA16709A0600B485AB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B357FCBC16709A0600B485AB /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				B357FCCE16709A0600B485AB /* MainStoryboard.storyboard */,
+				B3076B6D1679D073002EF5E1 /* AddCarViewController.h */,
+				B3076B6E1679D073002EF5E1 /* AddCarViewController.m */,
+				B357FCED1670AB2D00B485AB /* CarsDetailViewController.h */,
+				B357FCEE1670AB2D00B485AB /* CarsDetailViewController.m */,
+				B357FCDF1670A12500B485AB /* CarsTableViewCell.h */,
+				B357FCE01670A12500B485AB /* CarsTableViewCell.m */,
+				B357FCD916709A4F00B485AB /* CarsTableViewController.h */,
+				B357FCDA16709A4F00B485AB /* CarsTableViewController.m */,
+				B357FCDC16709B9A00B485AB /* Car.h */,
+				B357FCDD16709B9A00B485AB /* Car.m */,
+				B3B116711679E2A900B94686 /* ImagesUtilities.h */,
+				B3B116721679E2A900B94686 /* ImagesUtilities.m */,
+				B357FCBD16709A0600B485AB /* Supporting Files */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+		B357FCBD16709A0600B485AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B357FCC516709A0600B485AB /* CarsAppDelegate.h */,
+				B357FCC616709A0600B485AB /* CarsAppDelegate.m */,
+				B357FCBE16709A0600B485AB /* Cars-Info.plist */,
+				B357FCBF16709A0600B485AB /* InfoPlist.strings */,
+				B357FCC216709A0600B485AB /* main.m */,
+				B357FCC416709A0600B485AB /* Cars-Prefix.pch */,
+				B357FCC816709A0600B485AB /* Default.png */,
+				B357FCCA16709A0600B485AB /* Default@2x.png */,
+				B357FCCC16709A0600B485AB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B357FCB116709A0500B485AB /* Cars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B357FCD616709A0600B485AB /* Build configuration list for PBXNativeTarget "Cars" */;
+			buildPhases = (
+				B357FCAE16709A0500B485AB /* Sources */,
+				B357FCAF16709A0500B485AB /* Frameworks */,
+				B357FCB016709A0500B485AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cars;
+			productName = Cars;
+			productReference = B357FCB216709A0500B485AB /* Cars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B357FCA916709A0500B485AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Cars;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Piotr Płaneta";
+			};
+			buildConfigurationList = B357FCAC16709A0500B485AB /* Build configuration list for PBXProject "Cars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B357FCA716709A0500B485AB;
+			productRefGroup = B357FCB316709A0500B485AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B357FCB116709A0500B485AB /* Cars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B357FCB016709A0500B485AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357FCC116709A0600B485AB /* InfoPlist.strings in Resources */,
+				B357FCC916709A0600B485AB /* Default.png in Resources */,
+				B357FCCB16709A0600B485AB /* Default@2x.png in Resources */,
+				B357FCCD16709A0600B485AB /* Default-568h@2x.png in Resources */,
+				B357FCD016709A0600B485AB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B357FCAE16709A0500B485AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357FCC316709A0600B485AB /* main.m in Sources */,
+				B357FCC716709A0600B485AB /* CarsAppDelegate.m in Sources */,
+				B357FCDB16709A4F00B485AB /* CarsTableViewController.m in Sources */,
+				B357FCDE16709B9A00B485AB /* Car.m in Sources */,
+				B357FCE11670A12500B485AB /* CarsTableViewCell.m in Sources */,
+				B357FCEF1670AB2D00B485AB /* CarsDetailViewController.m in Sources */,
+				B3076B6F1679D073002EF5E1 /* AddCarViewController.m in Sources */,
+				B3B116731679E2A900B94686 /* ImagesUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B357FCBF16709A0600B485AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B357FCC016709A0600B485AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B357FCCE16709A0600B485AB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B357FCCF16709A0600B485AB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B357FCD416709A0600B485AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B357FCD516709A0600B485AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B357FCD716709A0600B485AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cars/Cars-Prefix.pch";
+				INFOPLIST_FILE = "Cars/Cars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B357FCD816709A0600B485AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cars/Cars-Prefix.pch";
+				INFOPLIST_FILE = "Cars/Cars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B357FCAC16709A0500B485AB /* Build configuration list for PBXProject "Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B357FCD416709A0600B485AB /* Debug */,
+				B357FCD516709A0600B485AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B357FCD616709A0600B485AB /* Build configuration list for PBXNativeTarget "Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B357FCD716709A0600B485AB /* Debug */,
+				B357FCD816709A0600B485AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B357FCA916709A0500B485AB /* Project object */;
+}
